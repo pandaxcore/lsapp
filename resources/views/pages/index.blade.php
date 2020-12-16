@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        <h2>About Page</h2>
+        <h2>Welcome to Laravel App</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores libero numquam reiciendis excepturi, <br>
             itaque quasi quos temporibus placeat distinctio quidem molestias nobis sed ipsum sunt incidunt odio est voluptate unde.

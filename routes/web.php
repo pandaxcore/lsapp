@@ -13,18 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
 
 // Route::get('/hello', function () {
 //     return '<h2>hello world!</h2>';
 // });
 
-Route::get('/about', function() {
-    return view('pages/about');
-});
+// Route::get('/about', function() {
+//     return view('pages/about');
+// });
 
 // Route::get('/users/{id}/{name}', function($id, $name) {
 //     return 'This is user name is '.$name.' with id of '.$id;
 // });
+Route::get('/', 'App\Http\Controllers\PagesController@index');
+Route::get('/about', 'App\Http\Controllers\PagesController@about');
+Route::get('/services', 'App\Http\Controllers\PagesController@services');
