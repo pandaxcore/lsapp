@@ -7,7 +7,7 @@
 
     </head>
     <body>
-        <h2>About</h2>
+        <h2>Services</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sed eaque nostrum culpa architecto totam <br>
         eveniet eos maxime quod ad, in laborum ratione labore a doloremque. Dolorum magni iure ullam!</p>
     </body>
