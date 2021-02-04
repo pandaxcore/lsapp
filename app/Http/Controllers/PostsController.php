@@ -16,13 +16,13 @@ class PostsController extends Controller
     public function index()
     {
         // return Post::all();
-        //$posts = Post::all();
+        //$post = Post::all();
         //return Post::where('title', 'Post Two')->get();
-        //$posts = DB::select('SELECT * FROM posts');
-        //$posts = Post::orderBy('title', 'desc')->get();
+        //$post = DB::select('SELECT * FROM post');
+        //$post = Post::orderBy('title', 'desc')->get();
 
-        $posts = Post::orderBy('title', 'desc')->paginate(10);
-        return view('posts/index') -> with('posts', $posts);
+        $post = Post::orderBy('created_at', 'desc')->paginate(10);
+        return view('posts/index') -> with('post', $post);
     }
 
     /**
@@ -50,7 +50,12 @@ class PostsController extends Controller
             'body' => 'required'
         ]);
 
-        return 123;
+        $post = new Post;
+        $post -> title = $request -> input('title');
+        $post -> body = $request -> input('body');
+        $post -> save();
+
+        return redirect('/posts')->with('success', 'Post Created');
     }
 
     /**
@@ -63,8 +68,8 @@ class PostsController extends Controller
     {
         //
         //return Post::find($id);
-        $posts = Post::find($id);
-        return view('posts/show') -> with('posts', $posts);
+        $post = Post::find($id);
+        return view('posts/show') -> with('post', $post);
     }
 
     /**
