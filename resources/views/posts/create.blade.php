@@ -3,6 +3,10 @@
 @section('content')
     <h1>Create post</h1>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> master
 
     {!! Form::open(['action' => 'App\Http\Controllers\PostsController@store', 'method' => 'POST']) !!}
         <div class="form-group">
@@ -14,7 +18,11 @@
             {{Form::text('body', '', ['class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
     {!! Form::close() !!}
+<<<<<<< HEAD
 =======
 >>>>>>> d873ead47995f850eb9d92dcf27d8fefbbfe1dae
+=======
+>>>>>>> work-branch
+>>>>>>> master
     
 @endsection

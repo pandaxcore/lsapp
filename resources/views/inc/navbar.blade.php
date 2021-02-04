@@ -20,9 +20,15 @@
           <a class="nav-link" href="/posts">Blog</a>
         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
       </ul>
 =======
 >>>>>>> d873ead47995f850eb9d92dcf27d8fefbbfe1dae
+=======
+=======
+      </ul>
+>>>>>>> work-branch
+>>>>>>> master
     </div>
   </div>
 </nav>
