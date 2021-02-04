@@ -19,6 +19,10 @@
         <li class="nav-item">
           <a class="nav-link" href="/posts">Blog</a>
         </li>
+<<<<<<< HEAD
+=======
+      </ul>
+>>>>>>> work-branch
     </div>
   </div>
 </nav>
