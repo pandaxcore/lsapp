@@ -19,7 +19,10 @@
         <li class="nav-item">
           <a class="nav-link" href="/posts">Blog</a>
         </li>
+<<<<<<< HEAD
       </ul>
+=======
+>>>>>>> d873ead47995f850eb9d92dcf27d8fefbbfe1dae
     </div>
   </div>
 </nav>

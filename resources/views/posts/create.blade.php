@@ -2,6 +2,7 @@
 
 @section('content')
     <h1>Create post</h1>
+<<<<<<< HEAD
 
     {!! Form::open(['action' => 'App\Http\Controllers\PostsController@store', 'method' => 'POST']) !!}
         <div class="form-group">
@@ -13,5 +14,7 @@
             {{Form::text('body', '', ['class' => 'form-control', 'placeholder' => 'Body Text'])}}
         </div>
     {!! Form::close() !!}
+=======
+>>>>>>> d873ead47995f850eb9d92dcf27d8fefbbfe1dae
     
 @endsection
